@@ -2,7 +2,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { UserAnswers, GradingResult } from "../types";
 import { RAW_TEXT } from "../constants";
 
-const apiKey = process.env.API_KEY || '';
+const apiKey = process.env.GEMINI_API_KEY || '';
 
 // Initialize client
 const getAiClient = () => {
